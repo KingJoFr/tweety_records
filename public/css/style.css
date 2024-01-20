@@ -1,0 +1,466 @@
+/* Website template by freewebsitetemplates.com */
+/*variables*/
+:root{
+    --midgray: #8898A7;
+    --offwhite:#FCFCFC;
+    --light-grey:#EDF0F9 ;
+    --red: #b30000;
+    --orange: #f7941d;
+    --light-blue: #CCD8E8;
+    
+    --font-size-base: 1rem;
+    --font-size-md: clamp(1.25rem, 0.61vw+1.1rem, 1.58rem);
+    --font-size-lg: clamp(1.56rem, 1vw+1.31rem, 2.11rem);
+    --font-size-xl: clamp(2.44rem, 2.38vw+1.85rem, 3.75rem);
+    --border-radius: 10px;
+}
+
+/*mobile responsive section*/
+@media (max-width: 800px){
+
+}
+#img_sub1{
+  margin-top:50px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+.sub1{
+  padding: 10px;
+  margin: 10px;
+  object-fit:contain;
+  margin-top: 50px;
+  
+}
+.img_sub2{
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  
+  border-radius: 15px;
+  
+}
+#img_sub2{
+  
+
+  max-width: 100%;
+
+  
+}
+#img_sub3{
+  
+}
+
+form{
+	color: var(--midgray);
+  
+}
+.container{
+	/*background-position: 10% 50%;
+	background-size: 500px;
+	background-image: url('/images/tim-schmidbauer-Z11rqPFK0WM-unsplash.jpg');*/
+	padding: 20px;
+	display: flex;
+  flex-direction: column;
+	width: 100%;
+	background-color: black;
+  
+
+}
+body {
+	color: var(--light-blue);
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing:border-box;
+	margin-top: 50px;
+  
+	
+}
+body #page {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+img {
+	border: none;
+}
+/*----------------------------------------header-styles---------------------------------------*/
+.logo{
+	object-fit: contain;
+	width: 100px;
+	
+}
+.header_logo{
+	
+	width:auto;
+	height:auto;
+	
+	object-fit:contain;
+}
+/*#header {
+	
+	border: 2px solid blue;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+*/
+
+
+#header {
+	
+	
+}
+
+#navigation{
+	top: 0;
+	position: fixed;
+	background-image:url('/images/tweety_records_logo1.jpg');
+	margin: 0 auto;
+	/*border-radius: 15px;*/
+	display:flex;
+	align-items: flex-end;
+	background-size: 500px;
+	width: 100%;
+	overflow: hidden;
+	background-position: 10% 35%;
+	opacity: 0.85;
+}	
+
+
+#header div ul {
+
+	
+    display: flex;
+	align-items: baseline; 	
+    list-style: none;
+    margin-left: auto;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#header div ul li {
+	display: inline-block;
+	/*float: left; /* Needed for IE7 and old versions */
+	margin: 0 0 0 37px;
+	padding: 0;
+	width: auto;
+}
+#header div ul li a {
+	border-radius: 5px;
+	background: rgba(136,152,167, 0.65);
+	letter-spacing: 4px;
+	color: var(--red);
+	font-weight: bold;
+	font-family: "Montserrat";
+	font-size: 22px;
+	text-shadow: 1px 1px 0px var(--light-blue0);
+	line-height: 10px;
+	margin: 0;
+	padding: 6px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+/*#header div ul li.selected a, #header div ul li.selected a:hover {
+	color: #fb416f;
+}*/
+#header div ul li a:hover {
+	color: var(--midgray);
+}
+#header div ul li ul {
+	display: none;
+}
+#header span#mobile-navigation, #header span#mobile-submenu, #header div ul li ul {
+	display: none;
+}
+/*----------------------------------------body-home-styles---------------------------------------*/
+ 
+.bod-container{
+	/*padding: 50px;*/
+  
+  
+}
+.page1{
+	background-color: black;
+	background-image:url('/images/TRP5.jpg');
+	background-size:120%;
+	background-repeat: no-repeat;	
+	background-position: 50% 20%;
+	box-sizing: border-box;
+	
+	margin: 0 auto;
+    width: 100%;
+    height: 650px;
+    /*padding-top: 300px;*/
+	display: grid;
+	margin-bottom: 50px;
+}
+.maintext{
+	
+	
+	width: 70%;
+	margin: 0 auto;
+	
+	padding: 50px;
+	border-radius: 20px;
+}
+.line{
+	margin: 0;
+	height: 0;
+  padding: 10px;
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+}
+.footer{
+	padding: 10px;
+	border: 2px solid white;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: 1fr 2fr
+}
+
+.connect{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+	border: 2px solid blue;
+}
+.links{
+	
+	margin: auto 0;
+	padding: 5px;
+	border: 2px solid yellow;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.links a{
+	color: var(--light-grey);
+	padding: 5px;
+}
+.copyright{
+	margin: 5px;
+	padding: 10px;
+	border: 2px solid green;
+}
+
+/* contact form styles */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.form_body{
+  border-radius:15px;
+  background-position: 40% 50%;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-image: url('/images/tim-schmidbauer-Z11rqPFK0WM-unsplash.jpg');
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+ /* background: linear-gradient(115deg, var(--offwhite) 10%, var(--light-blue));*/
+  width: 60%;
+}
+
+.form_container{
+  border-radius: 15px;
+  max-width: 800px;
+  background: black;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  opacity: 0.75;
+  
+}
+.form_container .text{
+  
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(right, var(--offwhite), var(--midgray));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form_container form{
+  border-radius:15px;
+  padding: 30px 0 0 0;
+}
+.form_container form .form-row{
+  
+  border-radius: 15px;
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  
+  border-radius: 15px;
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  
+  border-radius: 15px;
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-32px);
+  font-size: 14px;
+  color: #3498db;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  padding:5px;
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  /*background: #fff;*/
+}
+.input-data .underline{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(right, black, var(--midgray));
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner{
+  left: 0;
+}
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 1080px){
+  #img_sub2{
+    object-position:0px -200px;
+  }
+  p{
+    margin-top:50px;
+    font-size:1.5vw;
+  }
+  h3{
+    font-size:4vw;
+    padding-bottom: 50px;
+  }
+  .maintext{
+    line-height: 42px;
+    letter-spacing: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .img_sub2{
+    height:450px;
+  }
+  #img_sub2{
+    object-position:0px 0px;
+  }
+  .maintext{
+    width: 100%;
+    line-height: 28px;
+	  letter-spacing: 3px;
+  }
+  p{
+    font-size: 3vw;
+  }
+  h3{
+    margin-bottom: 50px;
+  }
+  
+  .form_container .text{
+    font-size: 30px;
+  }
+  .form_container form{
+    padding: 10px 0 0 0;
+  }
+  .form_container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+}
